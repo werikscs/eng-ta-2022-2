@@ -1,6 +1,6 @@
 class VectorOperations {
   scalarProduct(vectorA: number[], vectorB: number[]): number{
-    return vectorA[0] + vectorB[0]
+    return vectorA[0] * vectorB[0]
   }
 }
 
@@ -13,6 +13,6 @@ describe('', () => {
     //action
     const result = sut.scalarProduct(vectorA, vectorB)
     //expectation
-    expect(result).toBe(2)
+    expect(result).toBe(1)
   })
 })

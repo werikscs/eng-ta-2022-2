@@ -1,3 +1,9 @@
+class VectorOperations {
+  scalarProduct(vectorA: number[], vectorB: number[]): number{
+    return vectorA[0] + vectorB[0]
+  }
+}
+
 describe('', () => {
   test('should sum 2 vectors with 1 element each', () => {
     //setup

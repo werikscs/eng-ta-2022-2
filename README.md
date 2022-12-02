@@ -1,0 +1,1 @@
+# Repositório responsável por conter exercícios realizados na disciplina de Testes Automatizados do curso de Engenharia de Computação do Instituto Federal Fluminense - campus Campos Centro.

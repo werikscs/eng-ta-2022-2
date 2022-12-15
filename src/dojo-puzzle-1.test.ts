@@ -1,15 +1,6 @@
-class VectorOperations {
-  scalarProduct(vectorA: number[], vectorB: number[]): number{
-    let result = 0
-    
-    for(let i=0; i<vectorA.length; i++)
-      result += vectorA[i] * vectorB[i]
+import { VectorOperations } from "./VectorOperations"
 
-    return result
-  }
-}
-
-describe('', () => {
+describe('vector operation - scalar product', () => {
   test('should sum 2 vectors with 1 element each', () => {
     //setup
     const vectorA: number[] = [1]

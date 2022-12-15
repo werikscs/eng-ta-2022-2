@@ -7,7 +7,6 @@ describe('vector operation - scalar product', () => {
     const vectorB: number[] = [1]
     const sut = new VectorOperations()
     //action
-    // result = 1*1 = 1
     const result = sut.scalarProduct(vectorA, vectorB)
     //expectation
     expect(result).toBe(1)
@@ -19,7 +18,6 @@ describe('vector operation - scalar product', () => {
     const vectorB: number[] = [1,2]
     const sut = new VectorOperations()
     //action
-    // result = 1*1 + 2*2 = 5
     const result = sut.scalarProduct(vectorA, vectorB)
     //expectation
     expect(result).toBe(5)

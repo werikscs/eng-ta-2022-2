@@ -35,4 +35,15 @@ describe('vector operation - scalar product', () => {
     //expectation
     expect(result).toBe(5)
   })
+
+  test('should sum 2 empty vectors', () => {
+    //setup
+    const vectorA: number[] = []
+    const vectorB: number[] = []
+    const sut = new VectorOperations()
+    //action
+    const result = sut.scalarProduct(vectorA, vectorB)
+    //expectation
+    expect(result).toBe(0)
+  })
 })

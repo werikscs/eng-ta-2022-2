@@ -25,14 +25,14 @@ describe('vector operation - scalar product', () => {
     expect(result).toBe(5)
   })
 
-  test('should throw a new error when arrays have differents size', () => {
+  test('should sum 2 vectors with different sizes', () => {
     //setup
     const vectorA: number[] = [1,2,3]
     const vectorB: number[] = [1,2]
     const sut = new VectorOperations()
     //action
-    const result = () => sut.scalarProduct(vectorA, vectorB)
+    const result = sut.scalarProduct(vectorA, vectorB)
     //expectation
-    expect(result).toThrow()
+    expect(result).toBe(5)
   })
 })
